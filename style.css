@@ -1,0 +1,76 @@
+body,
+html {
+  padding-top: 56px;
+  font-family: "Arial";
+  background-color: white;
+  scroll-behavior: smooth;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #343a40;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-nav .nav-link {
+  color: lightcoral;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ef5454;
+}
+
+.container-fluid {
+  padding: 50px 15px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+p {
+  color: darkblue;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav.ml-auto {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+  }
+}
+
+.navbar-brand img {
+  max-width: 60px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-out;
+}
+
+.skillcolor {
+  color: darkblue;
+}
